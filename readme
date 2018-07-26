@@ -15,6 +15,8 @@ First and foremost I want to make it very clear that I don't consider this a fin
 
 7. If there's anything else I missed you think I should take into account, please let me know
 
+8. The first phase of the project is significantly more fleshed out than the second phase
+
   This is not to say that I'm not happy with the work I have done, I'm actually am. I decided to use mostly vanilla PHP and MySql because I wanted to show that I am capable of doing more than just using WordPress. I wanted to show that I have at least a fundamental understanding of the technologies that Drupal and WordPress are both built on, even though I am not used to working with them in this capacity. I love WordPress and probably would have created an overall better product if I had used my normal WordPress workflow. But what was important to me in the context of this test is to show you, my hopeful employers, that I can problem solve these technologies on a deeper level than just troubleshooting WordPress, and can be very flexible in my approach. I am very eager to discuss the challenges I faced with this project, what I would do to improve it given more time, how I would have approached the challenge in WordPress, and what I would do if I did this project over again. 
   
   What the app does (to use it, start at localhost/register.php)
