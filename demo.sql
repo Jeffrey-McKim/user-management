@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 27, 2018 at 12:27 AM
+-- Generation Time: Jul 27, 2018 at 12:41 AM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.10
 
@@ -21,6 +21,18 @@ SET time_zone = "+00:00";
 --
 -- Database: `demo`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `expensereport`
+--
+
+CREATE TABLE `expensereport` (
+  `amount` decimal(11,0) NOT NULL,
+  `date` date NOT NULL,
+  `itemtype` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
