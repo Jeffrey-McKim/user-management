@@ -17,7 +17,7 @@ $date = $_POST['date'];
 }
 if(isset($_POST) & !empty($_POST)) { //finds user input then stores them into the itemtype vaiable 
 $itemtype = $_POST['itemtype'];
-  $sql = "INSERT INTO `expensedata` (amount, date, itemtype, name) VALUES ('$amount', '$date', '$itemtype', '$username')"; //inserts the user data into the database
+  $sql = "INSERT INTO `expensedata` (amount, date, itemtype) VALUES ('$amount', '$date', '$itemtype')"; //inserts the user data into the database
 if (mysqli_query($connection, $sql)) {
       echo "New record created successfully";
 } else {
