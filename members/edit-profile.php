@@ -104,7 +104,7 @@ if(isset($_POST) & !empty($_POST)){
 <div class="container">
 <div class="col-sm-3">
 <ul class="nav nav-pills nav-stacked">
- <<li><a href="http://localhost/user-management/members">Home</a></li>
+ <li><a href="http://localhost/user-management/members">Home</a></li>
        <li><a href="http://localhost/user-management//members/expensereport.php">Read Expense Report</a></li>
        <li><a href="http://localhost/user-management/members/expense.php">File Expense Report</a></li>
 </ul>
