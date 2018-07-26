@@ -1,0 +1,36 @@
+Hello! Welcome to my Project. 
+
+First and foremost I want to make it very clear that I don't consider this a finished product. I would like to talk about the most glaring issues. These are all issues that I have no doubt that I could fix if I had more time. 
+
+
+1. Expense Report is not yet displayed properly. The logic to organize the data into an attractive, dynamic HTML/CSS/BootStrap table is yet to be written. Right now it just displays the information in an unorganized page for testing purposese.
+
+2. Security methods are used innconsistently. If this were a production project I would go through and make sure all user input data is properly encryped or wrapped in myqli_real_escape_string functions. Also using OOP would add an extra layer of security. 
+
+3. Not all error user-end messages are totally accurate 
+
+4. The profile picture functionality is not fully fleshed out yet 
+
+5. The user can not change there password, only request a new one. 
+
+  This is not to say that I'm not happy with the work I have done, I'm actually am. I decided to use mostly vanilla PHP and MySql because I wanted to show that I am capable of doing more than just using WordPress. I wanted to show that I have a fundemental understanding of the technolgies that Drupal and WordPress are both built on, even though I am not used to working with them in this capacity. I love WordPress, and probably would of created an overall better product if I had used my normal WordPress workflow. But what was important to me in the context of this test is to show you, my hopeful employers, that I can problem solve these technogies on a deeper level then just troubleshooting WordPress, and can be very flexible in my approach. I am very eager to discuss the challenges I faced with this project, what I would do to improve it given more time, how I would of approached the challenge in WordPress, and what I would do if I did this project over again. 
+  
+  What the app does
+  
+  1. A fully functioning login system including:
+    a.email verifcation
+    b.basic encryption 
+    c.password recovery 
+    d.change username
+    e.sessions
+    f.change first name / last name / email
+  
+  2. Members area including: 
+    a. place to log an expense report 
+    b. an unfished page the displays the information of the expense report, 
+
+
+Dependencies: 
+Import "demo" database 
+PHP PEAR Mailer 
+PHP 5.1 or above
