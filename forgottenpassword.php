@@ -26,8 +26,8 @@ include('config.php');
           $username ="demotest@bluejaybuilds.com";
           $password1 ="N]k2D!ZSZ`[Ar!x6";
           $port = "465";
-          $to = $email;
-          $email_from = "$email";
+          $to = "$email";
+          $email_from = "demotest@bluejaybuilds.com"
           $email_subject = "Your Password" ;
           $email_body = "Your Password is $password";
           $email_address = "reply-to@example.com";
